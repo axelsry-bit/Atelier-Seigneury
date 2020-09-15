@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oeuvres - Atelier Seigneury</title>
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin:0%
+            }
+            header,footer {
+                background-color:black;
+                color: blanchedalmond;
+                padding: 0 20px;
+
+            }
+            section {
+                background-color: burlywood;
+                color:cornsilk;
+                /*border: solid 1px;*/
+                padding: 20px;
+            }
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            header ul {
+                margin: 0;
+                padding: O;
+                list-style: nome;
+            }
+            header ul li {
+                display: inline-block;
+                padding: 10px 15px;
+                /*border: solid;*/
+                cursor: pointer;
+                font-size: 0.8rem;
+            }
+            .active{
+                background-color: burlywood;
+                color: white;
+                padding: 10px;
+            }
+            footer {
+                text-align:center;
+                padding: 5em;
+            }
+            header a {
+                color: azure;
+                text-decoration: none;
+            }
+            nav.menu-nav ul li .btn:hover{
+                background-color: burlywood;
+                padding: 10px;
+                transition: 0.3s all;
+            }
+            .cadre1 {
+                padding-left: 400px;
+            }
+            div{
+                background: burlywood;
+            }
+            div#content div {
+                display: inline-block;
+                width: 49%;
+            }
+
+            div#content div.rightbox {
+                background-color: burlywood;
+                color: black;
+            }
+            div#content div.leftbox {
+                background-color: burlywood;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>ATELIER SEIGNEURY</h1>
+            <nav class="menu-nav">
+                <ul>
+                    <li>
+                        <a class="btn" href="index.html">
+                            PAGE D'ACCEUIL
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="restauration.html">
+                            RESTAURATION
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="fabrication.html">
+                            FABRICATION DE CADRE
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="decoration.html">
+                            DECORATIONS
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="dorure.html">
+                            DORURE
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn" href="bureau.html">
+                            BUREAU DETUDES
+                        </a>
+                    </li>
+                    <li class="active" href="#">
+                        OEUVRES
+                    </li>
+                    <li>
+                        <a class="btn" href="contact.html">
+                            CONTACTER
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div id="content">
+            <div class="leftbox">
+                <h1>
+
+                </h1>
+                <p>
+                    <img class="cadre1" src="cadre 1.jpg" width="250">
+                </p>
+            </div>
+            <div class="rightbox">
+                <h1>
+
+                </h1>
+                <p>
+                    Nom du cadre  
+                </p>
+                <p>
+                    Descriptif
+                </p>
+                <p>
+                    ....  
+                </p>
+                <p>
+                    ....
+                </p>
+                <p>
+                    ...  
+                </p>
+                <p>
+                    .....
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            ⓒTous droits réservés | Conçu par M.Seigneury
+        </footer>
+
+    </body>
+
+</html>
